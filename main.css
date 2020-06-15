@@ -15,6 +15,12 @@ body {
   font-weight: 400;
 }
 
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
 .container {
   /* width changed from 1200 to 1170 on the  layout?*/
   width: 1200px;
@@ -145,7 +151,7 @@ h1 {
   text-align: center;
 }
 .section {
-  padding-top: 0x;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -162,7 +168,9 @@ h1 {
 }
 
 /* Our Advantages */
-
+.advantages {
+  padding-bottom: 0px;
+}
 .advantages .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -194,6 +202,7 @@ h1 {
   margin-right: 30px;
 }
 /* What we do */
+
 .what-we-do .title {
   color: var(--secondary-text-color);
 
@@ -217,13 +226,11 @@ h1 {
 .what-we-do .title {
   text-align: center;
 }
+
 /* Our team */
 
 .team {
   background-color: var(--secondary-background-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
-
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -254,9 +261,7 @@ h1 {
 }
 
 /* Clients */
-.clients {
-  padding-top: 94px;
-}
+
 .client-list {
   display: flex;
   justify-content: space-between;
@@ -304,7 +309,7 @@ h1 {
 }
 .portfolio p {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 .portfolio .image {
   margin-top: 0;
@@ -393,8 +398,12 @@ address .physical-address {
   line-height: 1.2;
   text-transform: uppercase;
 }
+.container .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
 .developed-by {
   margin: 0;
+  padding-top: 18px;
   padding-bottom: 21px;
   font-size: 12px;
   line-height: 2;
